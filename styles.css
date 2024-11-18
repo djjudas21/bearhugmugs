@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.fullscreen-image {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    height: 100vh;           /* Full height of the viewport */
+}
+
+.fullscreen-image img {
+    height: 100%;            /* Scale height to 100% */
+    width: auto;             /* Maintain aspect ratio */
+    max-width: 100%;         /* Prevent overflowing the container */
+}
